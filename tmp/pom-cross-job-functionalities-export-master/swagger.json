@@ -1,0 +1,43 @@
+{
+    "openapi": "3.0.0",
+    "paths": {
+        "/v1/pom/cross/functionalities-export/health": {
+            "get": {
+                "operationId": "AppController_getHealth",
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "/v1/pom/cross/functionalities-export": {
+            "post": {
+                "operationId": "AppController_postJob",
+                "parameters": [],
+                "responses": {
+                    "201": {
+                        "description": ""
+                    }
+                }
+            }
+        }
+    },
+    "info": {
+        "title": "pocr-fuex",
+        "description": "Process created to be called from Control-m",
+        "version": "1.0",
+        "contact": {}
+    },
+    "tags": [
+        {
+            "name": "Process",
+            "description": ""
+        }
+    ],
+    "servers": [],
+    "components": {
+        "schemas": {}
+    }
+}
